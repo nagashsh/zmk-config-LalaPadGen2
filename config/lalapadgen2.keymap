@@ -58,9 +58,9 @@
 &kp A              &kp S      &kp D         &kp F      &kp G                                     &kp H      &kp J     &kp K           &kp L           &kp SEMICOLON
 &kp Z              &kp X      &kp C         &kp V      &kp B                                     &kp N      &kp M     &kp COMMA       &kp PERIOD      &kp SLASH
 &mt2 LEFT_ALT ESCAPE  &kp LWIN   &kp INTERNATIONAL_5  &mo 1  &kp LEFT_SHIFT  &kp LCTRL  &lt 3 TAB  &kp BACKSPACE  &lt 2 SPACE  &kp INTERNATIONAL_4  &kp MINUS  &kp ENTER
-                   &none      &kp RIGHT     &kp DOWN   &kp LEFT   &kp UP          &kp UP         &kp LEFT   &kp DOWN  &kp RIGHT       &none
+                   &none      &kp RIGHT     &kp DOWN   &kp LEFT   &kp UP          &kp UP         &mkp MB4   &kp DOWN  &mkp MB5        &none
 &mkp LCLK          &mkp RCLK  &mkp MCLK                                                                               &mkp LCLK       &mkp RCLK       &mkp MCLK
-&mkp MB4           &mkp MB5   &kp LG(TAB)   &kp LG(D)  &kp LCTRL                                 &mkp MB4   &mkp MB5  &kp LG(TAB)     &kp LG(D)       &kp LCTRL
+&none              &none      &kp LG(TAB)   &kp LG(D)  &kp LCTRL                                 &none      &none     &kp LG(TAB)     &kp LG(D)       &kp LCTRL
             >;
         };
 
