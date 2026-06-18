@@ -43,50 +43,6 @@
             bindings = <&mo 1>, <&mo 2>;
         };
 
-        win_snap_l: win_snap_l {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <10>;
-            bindings =
-                <&macro_press &kp LGUI>,
-                <&macro_press &kp LEFT>,
-                <&macro_release &kp LGUI>,
-                <&macro_release &kp LEFT>;
-        };
-        win_snap_r: win_snap_r {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <10>;
-            bindings =
-                <&macro_press &kp LGUI>,
-                <&macro_press &kp RIGHT>,
-                <&macro_release &kp LGUI>,
-                <&macro_release &kp RIGHT>;
-        };
-        win_snap_u: win_snap_u {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <10>;
-            bindings =
-                <&macro_press &kp LGUI>,
-                <&macro_press &kp UP>,
-                <&macro_release &kp LGUI>,
-                <&macro_release &kp UP>;
-        };
-        win_snap_d: win_snap_d {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <10>;
-            bindings =
-                <&macro_press &kp LGUI>,
-                <&macro_press &kp DOWN>,
-                <&macro_release &kp LGUI>,
-                <&macro_release &kp DOWN>;
-        };
     };
 
     combos {
@@ -103,7 +59,7 @@
 &kp A              &kp S      &kp D         &kp F      &kp G                                     &kp H      &kp J     &kp K           &kp L           &kp SEMICOLON
 &kp Z              &kp X      &kp C         &kp V      &kp B                                     &kp N      &kp M     &kp COMMA       &kp PERIOD      &kp SLASH
 &mt2 LEFT_ALT ESCAPE  &kp LWIN   &kp INTERNATIONAL_5  &mo 1  &kp LEFT_SHIFT  &kp LCTRL  &lt 3 TAB  &kp BACKSPACE  &lt 2 SPACE  &kp INTERNATIONAL_4  &kp DELETE  &kp ENTER
-                   &kp LWIN   &win_snap_r   &win_snap_d  &win_snap_l  &win_snap_u   &kp UP         &mkp MB4   &kp DOWN  &mkp MB5        &none
+                   &kp LWIN   &kp RIGHT     &kp DOWN     &kp LEFT     &kp UP        &kp UP         &mkp MB4   &kp DOWN  &mkp MB5        &none
 &mkp LCLK          &mkp RCLK  &mkp MCLK                                                                               &mkp LCLK       &mkp RCLK       &mkp MCLK
 &none              &none      &kp LG(TAB)   &kp LG(D)  &kp LCTRL                                 &none      &none     &kp LG(TAB)     &kp LG(D)       &kp LCTRL
             >;
